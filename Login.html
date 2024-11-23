@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">My Quiz App</div>
+        <button class="toggle-btn" onclick="toggleNavbar()">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ContactUs.html">Contact Us</a></li>
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+      </nav>
+  <div class="login-container">
+    <div class="login-form">
+      <h2>Login</h2>
+      <form action="#">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required placeholder="Enter your username">
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
